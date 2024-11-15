@@ -28,7 +28,7 @@ function sms($dest_addr, $sms_text) {
     return $result;
 }
 
-$recipients = "8801783504771";
+$recipients = "88017##########";
 $message = "Dear Sir,\r\nPlease Approve Pending Sales Order.\r\nDo No : 505\r\n";
 
 $sms_result = sms($recipients, $message);
